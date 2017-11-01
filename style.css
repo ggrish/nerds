@@ -18,7 +18,6 @@ body {
   padding-top: 50px;
   background: #eeeeee;
   min-height: 70px;
-  border: 2px solid yellow;
 }
 
 .header-layout {
@@ -30,12 +29,10 @@ body {
   width: 1162px;
   margin: 0 auto;
   padding: 0 10px;
-  border: 2px solid red;
 }
 
 .main-navigation {
   width: 780px;
-  border: 2px solid blue;
 }
 
 .main-navigation a {
@@ -76,7 +73,6 @@ body {
 }
 
 .basket {
-  border: 2px solid black;
   display: inline-block;
   font-size: 16px;
   text-transform: uppercase;
@@ -115,7 +111,6 @@ body {
 
 /*слайдер начало*/
 .slider {
-  border: 3px solid green;
   position: relative;
   width: 1180px;
   height: 420px;
@@ -293,11 +288,99 @@ body {
 }
 
 .index-info-left {
-  border: 3px solid green;
   width: 600px;
 }
 
 .index-info-right {
-  border: 3px solid blue;
   width: 360px;
+}
+
+.index-info-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.index-info-title2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.info-list li {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.info-list li last-child {
+  padding-bottom: 0;
+}
+
+.table-header {
+  font-size: 36px;
+  font-weight: bold;
+  padding-right: 32px;
+  padding-bottom: 16px;
+}
+
+.info-list {
+  list-style: none;
+}
+
+.info-list li::before {
+  content: "";
+position: absolute;
+top: 8px;
+left: -36px;
+width: 25px;
+height: 2px;
+background-color: #fb565a;
+}
+
+.table-data,
+.index-info-text {
+color: #283136;
+}
+
+.prtnr {
+  opacity: 0.4;
+  display: inline-block;
+  width: 220px;
+  height: 150px;
+  margin: 0 30px;
+  font-size: 0;
+  vertical-align: top;
+  text-decoration: none;
+  background: white url("./img/main-partners.png") no-repeat center;
+}
+
+.partner-1 {
+  background-position: -30px 30px;
+  margin-left: 50px;
+}
+
+.partner-2 {
+  background-position: -288px 30px;
+}
+
+.partner-3 {
+  background-position: -590px 30px;
+}
+
+.partner-4 {
+  background-position: -850px 30px;
+}
+
+.prtnr:hover {
+  opacity: 1;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: #eeeeee; /* Цвет линии */
+    color: #eeeeee; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width: 1160px;
+    margin-bottom: 30px;
 }
